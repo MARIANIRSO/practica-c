@@ -1,0 +1,38 @@
+
+
+
+hacer
+5. Escribir el programa necesario para calcular y mostrar el cuadrado de un número. El número debe ser
+mayor que cero, en caso de error que aparezca el mensaje "ERROR, el número debe ser mayor que cero"
+
+
+6.Escribir el programa. De 10 números ingresadas indicar cuantos son mayores a cero y cuantos son menores a cero
+
+
+
+
+10- Escribir en C un programa que muestre los números impares entre 0 y 100 y que imprima cuantos impares hay
+
+
+11. Hacer el programa que imprima los números pares entre el 1 y el 100
+
+
+extra
+
+
+4. Escribir un programa que realice las siguientes acciones:
+
+
+. Declare 2 variables y les asigne valores
+. Realice la resta de dichas variables y muestre por pantalla la leyenda "Resultado positivo" en caso de ser mayor que cero 
+o "Resultado negativo" si es menor que cero
+
+
+9. Escribir un programa que realice lea por teclado 10 numeros. Luego de la lectura indicar cuantos "1" se
+ingresaron, cuantas "2, 3"
+
+
+
+12. Hacer el programa que imprima los números del 1 al 100
+
+13. Hacer el programa que imprima los números del 100 al 0 en orden decreciente

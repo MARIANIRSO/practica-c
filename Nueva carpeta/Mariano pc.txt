@@ -1,0 +1,543 @@
+--------[ AIDA64 Extreme Edition ]--------------------------------------------------------------------------------------
+
+    Versión                                           AIDA64 v3.20.2600/es
+    Módulo de rendimiento                             4.1.581-x64
+    Página principal                                  http://www.aida64.com/
+    Tipo de informe                                   Informe rápido
+    Equipo                                            MARIANO-PC
+    Generador                                         MARIANO
+    Sistema operativo                                 Microsoft Windows 7 Ultimate 6.1.7601.17514 (Win7 RTM)
+    Fecha                                             2002-01-01
+    Hora                                              00:02
+
+
+--------[ Resumen ]-----------------------------------------------------------------------------------------------------
+
+    Equipo:
+      Tipo de equipo                                    ACPI x64-based PC
+      Sistema operativo                                 Microsoft Windows 7 Ultimate
+      Service Pack del SO                               Service Pack 1
+      Internet Explorer                                 9.0.8112.16421 (IE 9.0)
+      DirectX                                           DirectX 11.0
+      Nombre del equipo                                 MARIANO-PC
+      Nombre de usuario                                 MARIANO
+      Dominio de inicio de sesión                       MARIANO-PC
+      Fecha / Hora                                      2002-01-01 / 00:02
+
+    Placa base:
+      Tipo de CPU                                       DualCore AMD Athlon II X2 250, 3000 MHz (15 x 200)
+      Nombre de la placa base                           Asus M2N68-AM Plus  (2 PCI, 1 PCI-E x1, 1 PCI-E x16, 2 DDR2 DIMM, Audio, Video, Gigabit LAN)
+      Chipset de la placa base                          nVIDIA nForce 7025-630a, AMD K10
+      Memoria del sistema                               1792 MB  (DDR2-800 DDR2 SDRAM)
+      DIMM1: Kingston                                   2 GB DDR2-800 DDR2 SDRAM  (6-6-6-18 @ 400 MHz)  (5-5-5-15 @ 333 MHz)  (4-4-4-12 @ 266 MHz)
+      Tipo de BIOS                                      AMI (06/10/10)
+      Puerto de comunicación                            Puerto de comunicaciones (COM1)
+      Puerto de comunicación                            Puerto de impresora (LPT1)
+
+    Pantalla:
+      Adaptador de video                                Tarjeta grfica VGA estndar  (256 MB)
+      Aceleradora 3D                                    nVIDIA nForce 7025-630a
+
+    Multimedia:
+      Adaptador de audio                                Realtek ALC887 @ nVIDIA nForce 7025-630a (MCP68SE) - High Definition Audio Controller
+
+    Almacenamiento:
+      Controlador IDE                                   Controladora estándar PCI IDE de doble canal
+      Controlador de almacenamiento                     Controladora serie ATA NVIDIA nForce
+      Controlador de almacenamiento                     Controladora serie ATA NVIDIA nForce
+      Unidad de disco                                   Kingston DataTraveler 2.0 USB Device  (14 GB, USB)
+      Unidad de disco                                   WDC WD32 00AAJS-00RYA SCSI Disk Device  (320 GB, 7200 RPM, SATA-II)
+      Unidad óptica                                     TSSTcorp CDDVDW SH-S223C SCSI CdRom Device  (DVD+R9:16x, DVD-R9:12x, DVD+RW:22x/8x, DVD-RW:22x/6x, DVD-RAM:12x, DVD-ROM:16x, CD:48x/32x/48x DVD+RW/DVD-RW/DVD-RAM)
+      Estado SMART de los discos duros                  Aceptar
+
+    Particiones:
+      C: (NTFS)                                         120.7 GB (112.7 GB libre)
+      D: (NTFS)                                         177.4 GB (132.2 GB libre)
+      Tamaño total                                      298.1 GB (244.9 GB libre)
+
+    Entrada:
+      Teclado                                           Dispositivo de teclado HID
+      Mouse                                             Mouse compatible con HID
+
+    Red:
+      Dirección IP primaria                             127.0.0.1
+      Dirección MAC primaria                            00-00-00-00-00-00
+
+    Periféricos:
+      Impresora                                         Microsoft XPS Document Writer
+      Controlador USB1                                  nVIDIA nForce 7025-630a (MCP68SE) - OHCI USB 1.1 Controller
+      Controlador USB2                                  nVIDIA nForce 7025-630a (MCP68SE) - EHCI USB 2.0 Controller
+      Dispositivo USB                                   Dispositivo compuesto USB
+      Dispositivo USB                                   Dispositivo de almacenamiento USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+
+    DMI:
+      Vendedor del BIOS DMI                             American Megatrends Inc.
+      Versión del BIOS DMI                              1802
+      Fabricante del sistema DMI                        System manufacturer
+      Producto del sistema DMI                          System Product Name
+      Versión del sistema DMI                           System Version
+      Número de serie del sistema DMI                   System Serial Number
+      UUID del sistema DMI                              8046CE1B-28A5DF11-BAF920CF-303ACE98
+      Fabricante de la placa base DMI                   ASUSTeK Computer INC.
+      Producto de la placa base DMI                     M2N68-AM Plus
+      Versión de la placa base DMI                      Rev X.0x
+      Número de serie de la placa base DMI              106563440001866
+      Fabricante del chasis DMI                         Chassis Manufacture
+      Versión del chasis DMI                            Chassis Version
+      Número de serie del chasis DMI                    Chassis Serial Number
+      Identificador del chasis DMI                      Asset-1234567890
+      Tipo de chasis DMI                                Desktop Case
+      Sockets de memoria Totales / Libres DMI           2 / 1
+
+
+--------[ Debug - PCI ]-------------------------------------------------------------------------------------------------
+
+    B00 D00 F00:  nVIDIA nForce 7025-630a (MCP68SE) - Host Bridge (HyperTransport)
+                  
+      Offset 000:  DE 10 E2 03  06 00 B0 00  A1 00 00 05  00 00 00 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  43 10 A4 83  08 DC 20 02  20 00 11 11  D0 00 00 00 
+      Offset 050:  23 06 7F 00  03 00 00 00  00 00 03 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  06 36 00 00 
+      Offset 070:  44 44 44 00  D0 09 00 00  11 00 00 00  11 11 88 00 
+      Offset 080:  23 99 88 00  FA 00 64 0D  03 00 00 00  7F 00 00 00 
+      Offset 090:  70 00 00 80  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  01 01 01 01  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  80 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  08 00 01 A8 
+      Offset 0E0:  00 00 E0 FE  00 00 00 00  07 00 00 00  20 10 00 00 
+      Offset 0F0:  F0 FF FF FF  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D01 F00:  nVIDIA nForce 7025-630a (MCP68SE) - LPC Bridge
+                  
+      Offset 000:  DE 10 E1 03  0F 00 A0 00  A2 00 01 06  00 00 80 00 
+      Offset 010:  01 09 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  43 10 A4 83  00 00 D0 FE  FA 3E FF 00  FA 3E FF 00 
+      Offset 050:  FA 3E FF 00  00 5A 62 02  00 00 00 05  1F 00 FC 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 00 FF FF  C5 80 00 00  00 00 45 19  00 00 00 00 
+      Offset 080:  09 80 00 8D  01 20 00 00  00 00 40 01  FF 00 00 00 
+      Offset 090:  FF 7F 00 00  00 00 00 00  21 65 08 74  B9 0C 00 D0 
+      Offset 0A0:  00 00 00 C1  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 47 0C 47  30 02 AF 02  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 FE  FD 03 00 A0 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  10 00 00 00  00 00 00 00 
+
+    B00 D01 F01:  nVIDIA nForce 7025-630a (MCP68SE) - SMBus Controller
+                  
+      Offset 000:  DE 10 EB 03  01 00 B0 00  A2 00 05 0C  00 00 80 00 
+      Offset 010:  01 0E 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  01 06 00 00  01 07 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  0A 01 00 00 
+      Offset 040:  43 10 A4 83  01 00 02 C0  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  01 05 00 00  01 08 00 00  01 0D 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 C8 FE  00 00 FE FE  01 11 00 00 
+      Offset 080:  00 10 FE FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  D4 30 80 01  01 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  40 00 40 01  10 00 00 00  05 00 00 00  00 00 00 00 
+      Offset 0E0:  80 10 04 00  04 40 02 07  80 06 00 20  41 44 44 11 
+      Offset 0F0:  02 FF 1E BF  01 00 00 80  10 00 00 00  00 00 00 00 
+
+    B00 D01 F02:  nVIDIA nForce 7025-630a (MCP68SE) - Shape/Trim
+                  
+      Offset 000:  DE 10 F5 03  00 04 A0 00  A2 00 00 05  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  43 10 A4 83  00 00 00 00  10 02 80 10  10 00 10 10 
+      Offset 050:  10 10 10 10  00 00 00 00  00 00 00 00  10 42 00 00 
+      Offset 060:  0B 00 00 00  C0 1C 52 06  21 00 10 0A  00 00 63 00 
+      Offset 070:  09 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 40 00  00 00 00 00  A0 18 00 00 
+      Offset 090:  00 00 00 00  00 00 00 12  20 81 04 00  00 00 00 00 
+      Offset 0A0:  00 14 00 06  00 00 00 00  00 00 00 00  01 00 00 00 
+      Offset 0B0:  00 00 00 00  42 80 30 04  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D02 F00:  nVIDIA nForce 7025-630a (MCP68SE) - OHCI USB 1.1 Controller
+                  
+      Offset 000:  DE 10 F1 03  06 00 B0 00  A3 10 03 0C  00 00 80 00 
+      Offset 010:  00 B0 FF DF  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  17 01 03 01 
+      Offset 040:  43 10 A4 83  01 00 02 FE  00 00 00 00  00 00 00 00 
+      Offset 050:  0A 00 00 00  1D 47 40 00  10 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D02 F01:  nVIDIA nForce 7025-630a (MCP68SE) - EHCI USB 2.0 Controller
+                  
+      Offset 000:  DE 10 F2 03  06 00 B0 00  A3 20 03 0C  00 00 80 00 
+      Offset 010:  00 AC FF DF  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  14 02 03 01 
+      Offset 040:  43 10 A4 83  0A 80 98 20  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  20 20 01 00  00 60 18 85  C3 13 0F 01  00 00 00 00 
+      Offset 070:  00 00 08 00  00 10 20 80  89 3D B6 22  77 25 54 00 
+      Offset 080:  01 00 02 FE  00 00 00 00  00 00 00 00  15 16 00 00 
+      Offset 090:  00 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 00 00  00 20 00 C0  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 11 22 33  44 00 00 00  FF 03 00 00  00 00 00 00 
+      Offset 0C0:  10 10 2D 0D  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  10 00 00 00  00 00 00 00 
+
+    B00 D04 F00:  nVIDIA nForce 7025-630a (MCP68SE) - PCI-PCI Bridge
+                  
+      Offset 000:  DE 10 F3 03  07 04 B0 00  A1 01 04 06  00 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 01 01 40  F0 00 80 22 
+      Offset 020:  F0 FF 00 00  F0 FF 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  B8 00 00 00  00 00 00 00  00 00 02 02 
+      Offset 040:  00 00 73 07  01 00 02 00  07 00 00 00  00 00 48 00 
+      Offset 050:  00 00 00 00  00 00 00 00  FF 1F FF 1F  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 06 00 00  00 00 00 00  00 00 00 00  08 00 01 A8 
+      Offset 090:  00 00 E0 FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  FF FF 00 00  0D 8C 00 00  43 10 A4 83 
+      Offset 0C0:  43 10 A4 83  03 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D05 F00:  nVIDIA nForce 7025-630a (MCP68SE) - High Definition Audio Controller
+                  
+      Offset 000:  DE 10 F0 03  06 00 B0 00  A2 00 03 04  00 00 80 00 
+      Offset 010:  00 40 FF DF  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 BC 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  16 02 02 05 
+      Offset 040:  43 10 BC 83  01 50 02 C0  00 00 00 00  01 01 0F 00 
+      Offset 050:  05 6C 80 01  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  0F 00 00 00  08 00 03 A8 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 47  00 29 00 00  00 00 00 00 
+
+    B00 D06 F00:  nVIDIA nForce 7025-630a (MCP68SE) - Parallel ATA Controller
+                  
+      Offset 000:  DE 10 EC 03  05 00 B0 00  A2 8A 01 01  00 00 00 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  A1 FF 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  00 00 03 01 
+      Offset 040:  43 10 A4 83  01 00 02 00  00 00 00 00  00 00 00 00 
+      Offset 050:  02 F0 00 00  00 00 00 00  A8 A8 A8 A8  FF 00 FF FF 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 01 01 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  10 00 00 00  00 00 00 00 
+
+    B00 D08 F00:  nVIDIA nForce 7025-630a (MCP68SE) - SATA Controller
+                  
+      Offset 000:  DE 10 F6 03  07 00 B0 00  A2 85 01 01  00 00 80 00 
+      Offset 010:  81 E4 00 00  01 E4 00 00  81 E0 00 00  01 E0 00 00 
+      Offset 020:  01 DC 00 00  00 90 FF DF  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  14 01 03 01 
+      Offset 040:  43 10 A4 83  01 B0 02 00  00 00 00 00  00 00 00 00 
+      Offset 050:  2F 68 08 00  00 00 00 00  00 00 00 20  40 00 00 20 
+      Offset 060:  00 00 00 C6  41 0C 00 00  00 0F 06 42  00 00 00 00 
+      Offset 070:  2C 78 C4 40  01 10 00 00  01 10 00 00  20 00 20 01 
+      Offset 080:  00 00 00 40  AE 7A FF DA  00 00 D6 2F  FE BC 77 EF 
+      Offset 090:  00 00 D8 2B  00 00 00 00  06 00 06 10  00 00 01 01 
+      Offset 0A0:  08 00 00 03  80 00 00 00  00 00 00 00  33 31 00 02 
+      Offset 0B0:  05 CC 84 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  0A 00 0A 00  08 00 03 A8 
+      Offset 0D0:  08 00 00 44  00 08 00 00  08 00 00 44  00 08 08 00 
+      Offset 0E0:  00 00 40 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 0C 00  00 00 00 00 
+
+    B00 D08 F01:  nVIDIA nForce 7025-630a (MCP68SE) - SATA Controller
+                  
+      Offset 000:  DE 10 F6 03  07 00 B0 00  A2 85 01 01  00 00 80 00 
+      Offset 010:  81 D8 00 00  01 D8 00 00  81 D4 00 00  01 D4 00 00 
+      Offset 020:  81 D0 00 00  00 80 FF DF  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  44 00 00 00  00 00 00 00  15 02 03 01 
+      Offset 040:  43 10 A4 83  01 B0 02 00  00 00 00 00  00 00 00 00 
+      Offset 050:  2F 68 08 00  00 00 00 00  00 20 00 00  04 20 00 00 
+      Offset 060:  00 00 00 00  41 0C 00 00  00 0F 06 42  00 00 00 00 
+      Offset 070:  2C 78 C4 40  01 10 00 00  01 10 00 00  20 00 20 01 
+      Offset 080:  00 00 00 80  FE FE BB 3F  00 00 C5 36  00 F0 27 4E 
+      Offset 090:  00 00 4C B9  00 00 00 00  06 00 06 10  00 00 01 01 
+      Offset 0A0:  08 00 00 0F  80 00 00 00  00 00 00 00  33 31 00 02 
+      Offset 0B0:  05 CC 84 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  0A 00 0A 00  08 00 03 A8 
+      Offset 0D0:  08 00 00 44  00 08 08 00  08 00 00 77  00 08 03 00 
+      Offset 0E0:  00 00 40 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 0C 00  00 00 00 00 
+
+    B00 D09 F00:  nVIDIA nForce 7025-630a (MCP68SE) - PCI Express Root Port (x16)
+                  
+      Offset 000:  DE 10 E8 03  04 04 10 00  A2 00 04 06  10 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 02 02 00  F1 01 00 00 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 00 02 00 
+      Offset 040:  0D 48 00 00  DE 10 00 00  01 50 02 F8  00 00 00 00 
+      Offset 050:  05 60 93 00  0C 30 E0 FE  00 00 00 00  B2 49 00 00 
+      Offset 060:  08 80 01 A8  00 00 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  10 00 41 01  01 80 00 00  10 28 00 00  01 3D 11 00 
+      Offset 090:  00 00 01 11  80 25 08 00  C0 01 08 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D0B F00:  nVIDIA nForce 7025-630a (MCP68SE) - PCI Express Root Port (x1)
+                  
+      Offset 000:  DE 10 E9 03  04 04 10 00  A2 00 04 06  10 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 03 03 00  F1 01 00 00 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 00 02 00 
+      Offset 040:  0D 48 00 00  DE 10 00 00  01 50 02 F8  00 00 00 00 
+      Offset 050:  05 60 93 00  0C 30 E0 FE  00 00 00 00  A2 49 00 00 
+      Offset 060:  08 80 01 A8  00 00 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  10 00 41 01  01 80 00 00  10 28 00 00  11 3C 11 01 
+      Offset 090:  00 00 11 10  00 05 10 00  C0 01 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D0C F00:  nVIDIA nForce 7025-630a (MCP68SE) - PCI Express Root Port (x1)
+                  
+      Offset 000:  DE 10 E9 03  04 04 10 00  A2 00 04 06  10 00 01 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 04 04 00  F1 01 00 00 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 00 02 00 
+      Offset 040:  0D 48 00 00  DE 10 00 00  01 50 02 F8  00 00 00 00 
+      Offset 050:  05 60 93 00  0C 30 E0 FE  00 00 00 00  92 49 00 00 
+      Offset 060:  08 80 01 A8  00 00 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  10 00 41 01  01 80 00 00  10 28 00 00  11 3C 11 02 
+      Offset 090:  00 00 11 10  00 05 18 00  C0 01 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D0D F00:  nVIDIA nForce 7025-630a Video Adapter
+                  
+      Offset 000:  DE 10 D6 03  07 04 B0 00  A2 00 00 03  00 00 00 00 
+      Offset 010:  00 00 00 DE  0C 00 00 C0  00 00 00 00  04 00 00 DD 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 A4 83 
+      Offset 030:  00 00 00 00  48 00 00 00  00 00 00 00  0B 01 00 00 
+      Offset 040:  43 10 A4 83  00 00 00 03  01 50 02 00  00 00 00 00 
+      Offset 050:  05 00 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  01 00 00 00  1C 04 04 00  00 00 00 00  00 00 00 00 
+      Offset 070:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 080:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 090:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 0A0:  00 00 E0 00  00 00 00 10  00 00 00 00  FF FF FF FF 
+      Offset 0B0:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 0C0:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 0D0:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 0E0:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+      Offset 0F0:  FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+
+    B00 D18 F00:  AMD K10 - HyperTransport Technology Configuration
+                  
+      Offset 000:  22 10 00 12  00 00 10 00  00 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 02 04 00  01 02 04 00  01 02 04 00  01 02 04 00 
+      Offset 050:  01 02 04 00  01 02 04 00  01 02 04 00  01 02 04 00 
+      Offset 060:  00 00 01 00  E0 00 00 00  20 A8 4E 00  20 F8 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  08 00 01 21  20 00 11 11  60 06 F5 8F  13 00 00 00 
+      Offset 090:  92 02 85 84  00 00 00 00  07 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D18 F01:  AMD K10 - Address Map
+                  
+      Offset 000:  22 10 01 12  00 00 00 00  00 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  03 00 00 00  00 00 7F 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  03 00 E0 00  80 FF EF 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  03 0A 00 00  00 0B 00 00  03 00 80 00  00 0B FE 00 
+      Offset 0C0:  13 50 00 00  00 F0 FF 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  03 00 00 07  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D18 F02:  AMD K10 - DRAM Controller
+                  
+      Offset 000:  22 10 02 12  00 00 00 00  00 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 00 00 00  01 01 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  E0 3E 78 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  06 00 48 0D  00 00 00 00 
+      Offset 080:  05 00 00 00  00 00 00 00  35 FB 7D 5D  34 03 22 00 
+      Offset 090:  10 04 01 00  0B 00 58 7F  20 00 00 80  58 00 58 00 
+      Offset 0A0:  00 02 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  2F 75 C2 23  3D 00 00 00  F8 7A 10 11  87 2A 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  B8 17 12 16  F9 EA 0B 1F  F7 2E 79 9E  39 FC 57 87 
+      Offset 0E0:  1D 7B BD 7A  35 73 6A D0  34 92 F3 19  23 CA 09 CD 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 100:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 110:  00 05 00 00  00 00 00 00  24 A4 40 04  C0 0F E0 2C 
+      Offset 120:  A0 04 0C 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 130:  11 9A 66 78  58 93 6B 39  B5 AA F4 B6  AE EA D6 86 
+      Offset 140:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 150:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 160:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 170:  00 00 00 00  00 00 00 00  06 00 C0 0E  00 00 00 00 
+      Offset 180:  00 00 00 00  04 00 00 00  00 00 00 FF  00 00 00 00 
+      Offset 190:  00 00 01 08  00 40 00 00  30 08 0F 8D  06 40 00 00 
+      Offset 1A0:  00 02 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1B0:  01 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 1F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D18 F03:  AMD K10 - Miscellaneous Control
+                  
+      Offset 000:  22 10 03 12  00 00 10 00  00 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  F0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  FF FF FF 3F  5C 00 B0 4A  00 00 00 00  00 00 00 00 
+      Offset 050:  F6 55 B2 FE  CE EF 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  05 00 7F 34  00 00 00 30  51 80 01 60 
+      Offset 070:  51 11 22 61  01 01 18 91  14 0C 20 00  0F 08 07 00 
+      Offset 080:  81 87 00 E6  E6 41 E6 01  08 00 00 00  00 40 58 42 
+      Offset 090:  00 00 00 00  44 03 00 00  60 9A 5D 7C  00 00 00 00 
+      Offset 0A0:  00 09 03 90  80 18 88 19  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  24 0F 81 C8  16 10 22 03  28 53 27 00 
+      Offset 0E0:  00 00 00 00  30 13 00 1E  79 1F 07 00  00 00 00 00 
+      Offset 0F0:  0F 00 10 00  00 00 00 00  00 00 00 00  62 0F 10 00 
+
+    B00 D18 F04:  AMD K10 - Link Control
+                  
+      Offset 000:  22 10 04 12  00 00 00 00  00 00 00 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    ISA-0D00:     nVIDIA CK8/CK8-04/MCP2/MCP04/MCP5x/MCP6x/MCP7x NVA
+                  
+      Offset 00:  00 00 00 00  1F 40 C6 E1  1B 38 C6 21  02 14 00 91 
+      Offset 10:  02 1F C0 A1  02 1F C0 A1  00 00 00 00  00 00 00 00 
+      Offset 20:  0A 18 C0 B1  0B 38 C0 A1  04 1B 00 80  01 10 C0 B1 
+      Offset 30:  42 91 E8 00  8E 8E 40 00  02 1F C0 A1  1F 40 C6 A1 
+      Offset 40:  00 00 00 00  F4 01 61 B3  00 00 00 00  00 00 00 00 
+      Offset 50:  32 18 C0 A1  05 10 00 80  01 14 C8 B1  00 00 00 00 
+      Offset 60:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 70:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 80:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 90:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset B0:  00 00 00 00  08 01 A9 3F  00 01 00 00  00 00 00 00 
+      Offset C0:  00 00 00 00  00 00 00 A0  00 00 00 00  00 01 00 C0 
+      Offset D0:  02 10 02 91  02 0C 01 91  02 10 01 91  02 14 01 91 
+      Offset E0:  02 0C 00 91  02 10 00 91  02 14 00 91  02 18 40 91 
+      Offset F0:  02 1C 40 91  01 1C 40 91  00 00 00 00  00 00 00 00 
+
+    ISA-0E00:     nVIDIA MCP55/MCP6x/MCP7x THERM
+                  
+      Offset 00:  08 00 00 00  0A 59 32 00  90 18 5E 1A  2E 00 00 01 
+      Offset 10:  00 04 00 C0  00 00 00 00  05 00 00 00  00 00 00 00 
+      Offset 20:  00 00 00 00  00 00 00 00  28 3C 28 3C  00 00 00 00 
+      Offset 30:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+
+--------[ Debug - Video BIOS ]------------------------------------------------------------------------------------------
+
+    C000:0000  U.v.K7400.L.w.VIDEO ..........IBM VGA Compatible........01/15/09
+    C000:0040  ......................................"....C..J.PMIDl.o.......
+    C000:0080  .....3......HWEAPCIR............v.....v.........................
+    C000:00C0  ..............MCP61 VGA BIOS....................................
+    C000:0100  ...............................Version  5.61.32.28.00 ...Copyrig
+    C000:0140  ht (C) 1996-2006 NVIDIA Corp....................................
+    C000:0180  .....................MCP61 - mcp61-86...................Chip Rev
+    C000:01C0     ...........BIT......E2...D.B...H.C...a.D...o.I...s.L.....t...
+    C000:0200  ..M.....N.....P.....S.....T.....U.....V.....c.....i.$...s.....m.
+    C000:0240  ........(2a.........00/00/00..UU..........Y.-A\..`..\.\.\.\.\.\.
+    C000:0280  \.....................]...]...................B......P...9.(.-..
+    C000:02C0  -#..#...f.....3.3..(2a..`.D......\01/12/09......................
+    C000:0300  ..........1...4.....5...%.I.......M.J.O...I.w...t.....%...J...Z.
+    C000:0340  ..8.........a...e.<We.(.2.2.2.......2.n...q.2.".t.......x...m.4.
+    C000:0380  ....f`....\................u..fa....f`3....fa....C.=............
+    C000:03C0  u.........8...t......2.....t......QPfVf.D.....NP....BN.......|.X
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
